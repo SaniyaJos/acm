@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACM TKMCE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f8f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-weight: 700;
+      color:  #3acefbff;
+      font-size: 1.2rem;
+
+    }
+    .img-logo{
+      width: 80px; 
+      height: 80px; 
+      border-radius: 50%;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #111827;
+      font-weight: 600;
+    }
+
+
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+     background: linear-gradient(to right,#62cff4,#2c67f2);
+     background-clip: text;
+     -webkit-background-clip: text ;
+     -webkit-text-fill-color:transparent;
+      font-weight: 800;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 1rem auto;
+      color: #000000;
+    }
+
+    .hero .actions {
+      margin-top: 1.5rem;
+    }
+
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 2rem;
+    }
+
+    .features, .offerings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .feature, .offering {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 260px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background:  #3acefbff;
+      color: #fff;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .footer-section h4 {
+      margin-bottom: 1rem;
+    }
+
+    .footer-section a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .stats {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image.jpg" alt="ACM Logo" class="img-logo">
+    <div class="logo">ACM TKMCE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#vision">Vision</a>
+      <a href="#mission">Mission</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>ACM TKMCE</h1>
+    <i>Advancing Computing as a Science & Profession</i>
+    <p>Join the premier computing community at TKM College of Engineering. Connect, learn, and innovate with fellow tech enthusiasts.</p>
+  </section>
+
+
+  <section id="about">
+    <h2 class="section-title">About <span style="color:#3acefbff">ACM</span></h2>
+    <p class="section-subtitle">ACM TKMCE is the student chapter of the Association for Computing Machinery, the world’s largest computing society. We bring together passionate students, educators, and innovators at TKMCE to explore the frontiers of technology, share knowledge, and build a collaborative tech community.
+    As part of ACM’s global network of over 100,000 members, we strive to uphold the highest standards in computing while fostering growth through learning, leadership, and professional development. At ACM TKMCE, we believe in creating opportunities that inspire dialogue, spark innovation, and empower the next generation of tech leaders.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Digital Library</h3>
+        <p>Access to the world's most comprehensive computing literature.</p>
+      </div>
+      <div class="feature">
+        <h3>Turing Award</h3>
+        <p>Home to computing's highest honor, the Turing Award.</p>
+      </div>
+      <div class="feature">
+        <h3>Global Community</h3>
+        <p>Connect with professionals and researchers worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="vision">
+    <h2 class="section-title">Our <span style="color:#3acefbff">Vision</span></h2>
+    <p class="section-subtitle">Empowering the next generation of computing professionals through innovation, collaboration, and continuous learning.</p>
+    <div class="offerings">
+      <div class="offering">
+        <p>Bridging the gap between academic learning and industry needs. Fostering innovation and excellence.</p>
+      </div>
+  </section>
+
+   <section id="mission">
+    <h2 class="section-title">Our <span style="color:#3acefbff">Mission</span></h2>
+    <div class="offerings">
+        <div class="offering">
+        <p>Explore, learn, and contribute to the field of computing through workshops, competitions, and collaboration.</p>
+      </div>
+    </div>
+    </div>
+    </section>  
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>ACM TKMCE</h4>
+        <p>Empowering the next generation of computing professionals.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>TKM College of Engineering<br>Kollam, Kerala</p>
+        <p>Email: acm@tkmce.ac.in</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
